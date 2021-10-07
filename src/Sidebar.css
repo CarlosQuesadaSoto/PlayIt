@@ -1,0 +1,43 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 100%;
+  color: white;
+  background-color: #040404;
+  width: 250px;
+  max-width: 250px;
+  position: fixed;
+  margin-top: 120px;
+}
+.sidebar > img {
+  content: url(images/logo2.png);
+  height: 120px;
+  width: 200px;
+}
+
+.sidebar__title {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.sidebar__logo {
+  margin-right: auto;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.footer__icon:hover,
+.footer__green:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2) !important;
+}
+.crud {
+  margin-bottom: 75px;
+}
+.crudAdmin {
+  margin-bottom: 75px;
+}
